@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="centralizar.css">
+    <link rel="stylesheet" href="contato.css">
+    <title>Posicionando divs</title>
+</head>
+
+<body>
+    <!--Cabeçalho da página-->
+    <header>
+        <h1>Posicionando Divs</h1>
+        <h5>Na versão 2.0 eu terei responsabilidade! Não, espera! É responsividade!</h5>
+    </header>
+    <!--Barra de navegação-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Centralizada</a></li>
+            <li><a href="fixed.html">Position Fixed</a></li>
+            <li><a href="relative.html">Position Relative</a></li>
+            <li><a href="absolute.html">Position Absolute</a></li>
+            <li><a href="sticky.html">Position Sticky</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="fale-comigo">
+        
+        <form action="https://api.staticforms.xyz/submit" method="POST" class="card">
+
+            <input type="hidden" name="accessKey" value="60431163-2708-4b2d-ada0-467826d8aa0d">
+
+            <input type="hidden" name="redirectTo" value="./index.html">
+            <input type="hidden" name="$via_estudo_position">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="name" placeholder="Seu nome" required maxlength="50" minlength="2">
+                <span></span>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="contato" name="email" placeholder="Seu email" required maxlength="75">
+                <span></span>
+            </div>
+
+            <div>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="message" id="mensagem" placeholder="Digite aqui sua mensagem" required
+                    maxlength="500"></textarea>
+                <span></span>
+            </div>
+
+            <div id="btn">
+                <input type="submit" value="ENVIAR" class="enviar">
+            </div>
+        </form>
+
+
+    </div>
+    <!--Rodapé do site-->
+    <footer>
+        <p>Estudos sobre posicionamento de DIV | Fernando Camargo | <a href="https://github.com/fcneves81" target="_blank"> <img id="github"
+                    src="img/github-logo-210-145-white.png" alt="logo_github"></a> | <a href="https://www.youtube.com/channel/UCRBSLSk_urdXaYTK0xAe8OA" target="_blank"> <img id="youtube"
+                    src="img/youtube.png" alt="logo_youtube"></a> | <a href="contato.html"> <img id="email"
+                    src="img/email-pequeno.png" alt="logo_email"></a> </p>
+    </footer>
+
+
+</body>
+
+</html>

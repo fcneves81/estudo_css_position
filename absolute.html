@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="centralizar.css">
+    <title>Posicionando divs</title>
+</head>
+
+<body>
+    <!--Cabeçalho da página-->
+    <header>
+        <h1>Posicionando Divs</h1>
+        <h5>Na versão 2.0 eu terei responsabilidade! Não, espera! É responsividade!</h5>
+    </header>
+    <!--Barra de navegação-->
+    <nav>
+        <ul>
+            <li><a href="centralizada.html">Centralizada</a></li>
+            <li><a href="fixed.html">Position Fixed</a></li>
+            <li><a href="relative.html">Position Relative</a></li>
+            <li><a href="#">Position Absolute</a></li>
+            <li><a href="sticky.html">Position Sticky</a></li>
+        </ul>
+    </nav>
+   
+    <div class="container" id="elemento-pai">
+        
+        <h2>DIV com position absolute</h2>
+        <p>Essa div será posicionada de forma relativa ao fluxo da página ou elemento pai.</p>
+        <p>Para entender isso melhor, veja que logo aqui abaixo, temos uma div filho, que está dentro desta outra div "container" e em algum canto da página tem uma outra, com seu posicionamento em relação ao "flow" (fluxo) da página.</p>
+        <p>Também tem as propriedades top, bottom, left e right</p>
+        
+        <div id="absolute-filho">
+            <h3>Eu sou uma div absolute!</h3>
+            <hr />
+            <p>Como eu estou dentro de outra div, eu sou um elemento filho! (child)</p>
+            <p>Eu estou 15px a esquerda e 50px acima dos limites do meu elemento pai</p>
+        </div>
+      
+
+    </div>
+
+
+    <div id="absolute-flow">
+        <h3>Eu também sou uma div absolute!</h3>
+        <hr />
+        <p>Mas a minha posição é em relação a pagina toda, pois meu elemento pai é o body da página</p>
+        <p>Note que não tenho muita utilidade assim, uma vez que estou basicamente com o mesmo comportamento de um elemento fixed!</p>
+    </div>
+
+    <!--Rodapé do site-->
+    <footer>
+        <p>Estudos sobre posicionamento de DIV | Fernando Camargo | <a href="https://github.com/fcneves81" target="_blank"> <img id="github"
+                    src="img/github-logo-210-145-white.png" alt="logo_github"></a> | <a href="https://www.youtube.com/channel/UCRBSLSk_urdXaYTK0xAe8OA" target="_blank"> <img id="youtube"
+                    src="img/youtube.png" alt="logo_youtube"></a> | <a href="contato.html"> <img id="email"
+                    src="img/email-pequeno.png" alt="logo_email"></a> </p>
+    </footer>
+
+
+
+</body>
+
+</html>

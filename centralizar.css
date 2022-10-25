@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Poppins:wght@200;500;900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar,
+div::-webkit-scrollbar {
+    display: none;
+}
+
+h2,
+p {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+h4 {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+h5 {
+    font-weight: normal;
+}
+
+header {
+    background: #010170;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    background: #f71919;
+    overflow: hidden;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav li {
+    font-size: 15px;
+    padding: 5px;
+    display: inline;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    margin: 10px auto 10px;
+    display: block;
+    background-color: #cecece;
+    border-radius: 3px;
+    position: relative;
+    width: 95%;
+    height: 380px;
+    max-height: 800px;
+    overflow: auto;
+}
+
+#elemento-pai {
+    height: 450px;
+
+}
+
+#quem-sou {
+    text-align: justify;
+    padding: 10px;
+    font-size: 16px;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+}
+
+#foto01 {
+    width: 175px;
+    height: 175px;
+    border: transparent thin solid;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 0px 10px 10px 0;
+    background-color: #010170bd;
+    box-shadow: 3px 3px 10px blue;
+}
+
+#centralizada {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    width: 75%;
+    margin: auto auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px #000;
+}
+
+#fixed {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    box-shadow: 5px 5px 25px #000;
+}
+
+#relative {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    left: 20px;
+    box-shadow: 5px 5px 25px #000;
+}
+
+#absolute-filho {
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    width: 50%;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px #000;
+    position: absolute;
+    left: 15px;
+    bottom: 50px;
+}
+
+
+#absolute-flow {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    background-color: white;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px #000;
+    position: absolute;
+    width: 350px;
+    right: 15px;
+    bottom: 30px;
+}
+
+#sticky {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px #000;
+    position: sticky;
+    top: 0;
+    left: 350px;
+
+}
+
+#centralizada:hover,
+#fixed:hover,
+#relative:hover,
+#absolute-filho:hover,
+#absolute-flow:hover,
+#sticky:hover {
+    background-color: #010170;
+    color: white;
+    transition: all ease 1s;
+}
+
+#github {
+    padding: 5px;
+    width: 50px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+}
+
+#youtube {
+    padding: 5px;
+    width: 90px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+}
+
+#email {
+    padding: 5px;
+    width: 45px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+
+footer {
+    background: #010170;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+
+}

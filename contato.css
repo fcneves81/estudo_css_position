@@ -1,0 +1,97 @@
+.fale-comigo {
+    padding: 0 20px;
+    display: table;
+    width: 100%;
+}
+
+
+form {
+    background: #01017033;
+    width: 65%;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px #999;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+    border: 1px solid;
+}
+
+label {
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #010170 !important;
+    border-radius: 3px;
+}
+
+span {
+    position: relative;
+}
+
+input:invalid + span::before, textarea:invalid + span::before {
+    content: '✖';
+    color: red;
+}
+
+input:valid + span::before, textarea:valid + span::before {
+    content: '✓';
+    color: #010170;
+}
+
+input + span::before {
+    position: absolute;
+    right: 10px;
+    top: -3px;
+}
+
+textarea + span::before {
+    position: absolute;
+    right: 10px;
+    top: -65px;
+}
+
+textarea {
+    height: 75px;
+}
+
+#btn {
+    text-align: center;
+}
+
+.enviar {
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid #010170;
+    color: #010170;
+    border-radius: 3px;
+}
+
+.enviar:hover {
+    background-color: #010170;
+    color: white;
+    cursor: pointer;
+}
+
+input:invalid, textarea:invalid {
+    outline: none;
+    border-color: red;
+}
+
+input:valid, textarea:valid {
+    outline: none;
+    border-color: #010170;
+    border-radius: 3px;
+}
