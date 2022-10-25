@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="centralizar.css">
-    <link rel="stylesheet" href="contato.css">
     <title>Posicionando divs</title>
 </head>
 
@@ -20,7 +19,7 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Centralizada</a></li>
+            <li><a href="centralizada.html">Centralizada</a></li>
             <li><a href="fixed.html">Position Fixed</a></li>
             <li><a href="relative.html">Position Relative</a></li>
             <li><a href="absolute.html">Position Absolute</a></li>
@@ -29,39 +28,15 @@
         </ul>
     </nav>
 
-    <div class="fale-comigo">
+    <div class="msg-enviada">
+        <h2>Recebi sua mensagem!</h2>
+        <div id="confirma-envio">
+            
+            <img id="confirm" src="img/confirm.png" alt="confirmação_de_recebimento" width="75"> <p>Muito obrigado pelo contato!</p>
+
+        </div>
         
-        <form action="https://api.staticforms.xyz/submit" method="POST" class="card">
-
-            <input type="hidden" name="accessKey" value="60431163-2708-4b2d-ada0-467826d8aa0d">
-
-            <input type="hidden" name="redirectTo" value="https://fcneves81.github.io/estudo_css_position/confirmacao.html">
-            <input type="hidden" name="$via_estudo_position">
-            <div>
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" name="name" placeholder="Seu nome" required maxlength="50" minlength="2">
-                <span></span>
-            </div>
-
-            <div>
-                <label for="email">Email</label>
-                <input type="email" id="contato" name="email" placeholder="Seu email" required maxlength="75">
-                <span></span>
-            </div>
-
-            <div>
-                <label for="mensagem">Mensagem</label>
-                <textarea name="message" id="mensagem" placeholder="Digite aqui sua mensagem" required
-                    maxlength="500"></textarea>
-                <span></span>
-            </div>
-
-            <div id="btn">
-                <input type="submit" value="ENVIAR" class="enviar">
-            </div>
-        </form>
-
-
+  
     </div>
     <!--Rodapé do site-->
     <footer>
@@ -73,5 +48,3 @@
 
 
 </body>
-
-</html>

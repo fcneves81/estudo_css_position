@@ -69,6 +69,18 @@ nav li {
     overflow: auto;
 }
 
+.msg-enviada {
+    text-align: center;
+    padding: 30px;
+    margin: 10px auto 10px;
+    background-color: #cecece;
+    border-radius: 3px;
+    width: 50%;
+    height: 380px;
+    max-height: 800px;
+    
+}
+
 #elemento-pai {
     height: 450px;
 
@@ -80,6 +92,17 @@ nav li {
     font-size: 16px;
     margin: auto auto;
     display: flex;
+    align-items: center;
+}
+
+#confirma-envio {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
